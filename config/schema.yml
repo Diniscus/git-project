@@ -1,0 +1,8 @@
+propel:
+  blog_post:
+    id:           ~
+    name:         { type: varchar(255), required: true }
+    title:        { type: varchar(255), required: true }
+    text:         { type: longvarchar, required: true }
+    activ:        { type: boolean, required: true }
+    created_at:   ~

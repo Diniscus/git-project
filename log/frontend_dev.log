@@ -1,0 +1,393 @@
+Oct 04 10:53:00 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 10:53:00 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 10:53:00 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 10:53:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 10:53:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 10:53:00 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 10:53:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 10:53:00 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 10:53:00 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 10:53:00 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 10:53:00 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 10:53:00 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 10:53:00 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 10:53:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 10:53:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 10:53:00 symfony [info] {sfWebDebugLogger} Configuration 961.90 ms (9)
+Oct 04 10:53:00 symfony [info] {sfWebDebugLogger} Action "post/index" 21.89 ms (1)
+Oct 04 10:53:00 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 57.07 ms (1)
+Oct 04 10:53:00 symfony [info] {sfWebResponse} Send content (26839 o)
+Oct 04 10:55:35 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 10:55:35 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 10:55:35 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 10:55:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 10:55:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 10:55:35 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 10:55:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 10:55:35 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 10:55:35 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 10:55:35 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 10:55:35 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 10:55:35 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 10:55:35 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 10:55:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 10:55:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 10:55:35 symfony [info] {sfWebDebugLogger} Configuration 32.92 ms (9)
+Oct 04 10:55:35 symfony [info] {sfWebDebugLogger} Action "post/index" 37.24 ms (1)
+Oct 04 10:55:35 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 45.44 ms (1)
+Oct 04 10:55:35 symfony [info] {sfWebResponse} Send content (26871 o)
+Oct 04 11:28:09 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:28:09 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:28:09 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:28:09 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 11:28:09 symfony [info] {myUser} Automatic user logout due to timeout
+Oct 04 11:28:09 symfony [info] {myUser} User is not authenticated
+Oct 04 11:28:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:28:09 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:28:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:28:09 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 11:28:09 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:28:09 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 11:28:09 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 11:28:09 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:28:09 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:28:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:28:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:28:09 symfony [info] {sfWebDebugLogger} Configuration 28.48 ms (9)
+Oct 04 11:28:09 symfony [info] {sfWebDebugLogger} Action "post/index" 170.34 ms (1)
+Oct 04 11:28:09 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 212.02 ms (1)
+Oct 04 11:28:09 symfony [info] {sfWebResponse} Send content (27452 o)
+Oct 04 11:28:19 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:28:19 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:28:19 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:28:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /post/new with parameters array (  'module' => 'post',  'action' => 'new',)
+Oct 04 11:28:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:28:19 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:28:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:28:19 symfony [info] {postActions} Call "postActions->executeNew()"
+Oct 04 11:28:19 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/newSuccess.php"
+Oct 04 11:28:19 symfony [info] {sfPartialView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/_form.php"
+Oct 04 11:28:20 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:28:20 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:28:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:28:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:28:20 symfony [info] {sfWebDebugLogger} Configuration 8.89 ms (9)
+Oct 04 11:28:20 symfony [info] {sfWebDebugLogger} Action "post/new" 193.45 ms (1)
+Oct 04 11:28:20 symfony [info] {sfWebDebugLogger} View "Success" for "post/new" 145.10 ms (1)
+Oct 04 11:28:20 symfony [info] {sfWebDebugLogger} Partial "post/_form" 118.96 ms (1)
+Oct 04 11:28:20 symfony [info] {sfWebResponse} Send content (32656 o)
+Oct 04 11:28:40 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:28:40 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:28:40 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:28:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /post/create with parameters array (  'module' => 'post',  'action' => 'create',)
+Oct 04 11:28:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:28:40 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:28:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:28:40 symfony [info] {postActions} Call "postActions->executeCreate()"
+Oct 04 11:28:40 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:28:40 symfony [debug] {sfPropelLogger} prepare: INSERT INTO blog_post (`ID`,`NAME`,`TITLE`,`TEXT`,`ACTIV`,`CREATED_AT`) VALUES (:p1,:p2,:p3,:p4,:p5,:p6)
+Oct 04 11:28:40 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Oct 04 11:28:40 symfony [debug] {sfPropelLogger} Binding '234' at position :p2 w/ PDO type PDO::PARAM_STR
+Oct 04 11:28:40 symfony [debug] {sfPropelLogger} Binding '234' at position :p3 w/ PDO type PDO::PARAM_STR
+Oct 04 11:28:40 symfony [debug] {sfPropelLogger} Binding '2345432343234' at position :p4 w/ PDO type PDO::PARAM_STR
+Oct 04 11:28:40 symfony [debug] {sfPropelLogger} Binding 1 at position :p5 w/ PDO type PDO::PARAM_INT
+Oct 04 11:28:40 symfony [debug] {sfPropelLogger} Binding '2017-06-04T03:10:00+0300' at position :p6 w/ PDO type PDO::PARAM_STR
+Oct 04 11:28:40 symfony [info] {sfFrontWebController} Redirect to "http://news/web/frontend_dev.php/post/edit/id/1"
+Oct 04 11:28:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Oct 04 11:28:40 symfony [info] {sfWebResponse} Send header "Location: http://news/web/frontend_dev.php/post/edit/id/1"
+Oct 04 11:28:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:28:40 symfony [info] {sfWebDebugLogger} Configuration 7.83 ms (8)
+Oct 04 11:28:40 symfony [info] {sfWebDebugLogger} Action "post/create" 132.06 ms (1)
+Oct 04 11:28:40 symfony [info] {sfWebResponse} Send content (118 o)
+Oct 04 11:28:40 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:28:40 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:28:40 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:28:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /post/edit/id/1 with parameters array (  'id' => '1',  'module' => 'post',  'action' => 'edit',)
+Oct 04 11:28:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:28:40 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:28:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:28:40 symfony [info] {postActions} Call "postActions->executeEdit()"
+Oct 04 11:28:40 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:28:40 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post` WHERE blog_post.ID=:p1
+Oct 04 11:28:40 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Oct 04 11:28:40 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/editSuccess.php"
+Oct 04 11:28:40 symfony [info] {sfPartialView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/_form.php"
+Oct 04 11:28:40 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:28:40 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:28:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:28:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:28:40 symfony [info] {sfWebDebugLogger} Configuration 7.82 ms (9)
+Oct 04 11:28:40 symfony [info] {sfWebDebugLogger} Action "post/edit" 107.11 ms (1)
+Oct 04 11:28:40 symfony [info] {sfWebDebugLogger} View "Success" for "post/edit" 27.97 ms (1)
+Oct 04 11:28:40 symfony [info] {sfWebDebugLogger} Partial "post/_form" 11.73 ms (1)
+Oct 04 11:28:40 symfony [info] {sfWebResponse} Send content (34043 o)
+Oct 04 11:28:50 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:28:50 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:28:50 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:28:50 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 11:28:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:28:50 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:28:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:28:50 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 11:28:50 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:28:50 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 11:28:50 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 11:28:50 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:28:50 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:28:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:28:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:28:50 symfony [info] {sfWebDebugLogger} Configuration 8.33 ms (9)
+Oct 04 11:28:50 symfony [info] {sfWebDebugLogger} Action "post/index" 14.47 ms (1)
+Oct 04 11:28:50 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 14.92 ms (1)
+Oct 04 11:28:50 symfony [info] {sfWebResponse} Send content (27123 o)
+Oct 04 11:31:35 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:31:35 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:31:35 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:31:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 11:31:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:31:35 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:31:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:31:35 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 11:31:35 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:31:35 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 11:31:35 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 11:31:35 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:31:35 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:31:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:31:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:31:35 symfony [info] {sfWebDebugLogger} Configuration 8.26 ms (9)
+Oct 04 11:31:35 symfony [info] {sfWebDebugLogger} Action "post/index" 15.85 ms (1)
+Oct 04 11:31:35 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 13.61 ms (1)
+Oct 04 11:31:35 symfony [info] {sfWebResponse} Send content (27154 o)
+Oct 04 11:31:38 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:31:38 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:31:38 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:31:38 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 11:31:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:31:38 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:31:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:31:38 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 11:31:38 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:31:38 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 11:31:38 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 11:31:38 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:31:38 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:31:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:31:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:31:38 symfony [info] {sfWebDebugLogger} Configuration 7.24 ms (9)
+Oct 04 11:31:38 symfony [info] {sfWebDebugLogger} Action "post/index" 16.76 ms (1)
+Oct 04 11:31:38 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 13.83 ms (1)
+Oct 04 11:31:38 symfony [info] {sfWebResponse} Send content (27153 o)
+Oct 04 11:32:12 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:32:12 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:32:12 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:32:12 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 11:32:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:32:12 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:32:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:32:12 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 11:32:12 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:32:12 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 11:32:12 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 11:32:12 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:32:12 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:32:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:32:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:32:12 symfony [info] {sfWebDebugLogger} Configuration 12.46 ms (9)
+Oct 04 11:32:12 symfony [info] {sfWebDebugLogger} Action "post/index" 23.07 ms (1)
+Oct 04 11:32:12 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 21.59 ms (1)
+Oct 04 11:32:12 symfony [info] {sfWebResponse} Send content (27156 o)
+Oct 04 11:32:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:32:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:32:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:32:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 11:32:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:32:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:32:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:32:14 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 11:32:14 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:32:14 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 11:32:14 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 11:32:14 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:32:14 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:32:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:32:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:32:14 symfony [info] {sfWebDebugLogger} Configuration 7.04 ms (9)
+Oct 04 11:32:14 symfony [info] {sfWebDebugLogger} Action "post/index" 15.19 ms (1)
+Oct 04 11:32:14 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 13.71 ms (1)
+Oct 04 11:32:14 symfony [info] {sfWebResponse} Send content (27153 o)
+Oct 04 11:40:48 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:40:48 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:40:48 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:40:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Oct 04 11:40:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:40:48 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:40:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:40:48 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Oct 04 11:40:48 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/main/templates/indexSuccess.php"
+Oct 04 11:40:48 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:40:48 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:40:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:40:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:40:48 symfony [info] {sfWebDebugLogger} Configuration 146.20 ms (9)
+Oct 04 11:40:48 symfony [info] {sfWebDebugLogger} Action "main/index" 0.13 ms (1)
+Oct 04 11:40:48 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 24.25 ms (1)
+Oct 04 11:40:48 symfony [info] {sfWebResponse} Send content (26348 o)
+Oct 04 11:41:00 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:41:00 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:41:00 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:41:00 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'main',  'action' => 'index',)
+Oct 04 11:41:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:41:00 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:41:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:41:00 symfony [info] {mainActions} Call "mainActions->executeIndex()"
+Oct 04 11:41:00 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/main/templates/indexSuccess.php"
+Oct 04 11:41:00 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:41:00 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:41:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:41:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:41:00 symfony [info] {sfWebDebugLogger} Configuration 8.94 ms (9)
+Oct 04 11:41:00 symfony [info] {sfWebDebugLogger} Action "main/index" 0.14 ms (1)
+Oct 04 11:41:00 symfony [info] {sfWebDebugLogger} View "Success" for "main/index" 14.42 ms (1)
+Oct 04 11:41:00 symfony [info] {sfWebResponse} Send content (26483 o)
+Oct 04 11:41:01 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:41:01 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:41:01 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:41:01 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 11:41:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:41:01 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:41:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:41:01 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 11:41:01 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:41:01 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 11:41:01 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 11:41:01 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:41:01 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:41:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:41:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:41:01 symfony [info] {sfWebDebugLogger} Configuration 54.07 ms (10)
+Oct 04 11:41:01 symfony [info] {sfWebDebugLogger} Action "post/index" 17.86 ms (1)
+Oct 04 11:41:01 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 23.93 ms (1)
+Oct 04 11:41:01 symfony [info] {sfWebResponse} Send content (27601 o)
+Oct 04 11:41:03 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:41:03 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:41:03 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:41:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /comment with parameters array (  'module' => 'comment',  'action' => 'index',)
+Oct 04 11:41:03 symfony [info] {sfFrontWebController} Action "comment/index" does not exist
+Oct 04 11:41:03 symfony [err] {sfError404Exception} Action "comment/index" does not exist.
+Oct 04 11:41:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 04 11:41:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:41:58 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:41:58 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:41:58 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:41:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 11:41:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:41:58 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:41:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:41:58 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 11:41:58 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:41:58 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 11:41:58 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 11:41:58 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:41:58 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:41:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:41:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:41:58 symfony [info] {sfWebDebugLogger} Configuration 12.94 ms (9)
+Oct 04 11:41:58 symfony [info] {sfWebDebugLogger} Action "post/index" 17.68 ms (1)
+Oct 04 11:41:58 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 15.30 ms (1)
+Oct 04 11:41:58 symfony [info] {sfWebResponse} Send content (27632 o)
+Oct 04 11:42:03 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:42:03 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:42:03 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:42:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 11:42:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:42:03 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:42:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:42:03 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 11:42:03 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:42:03 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 11:42:03 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 11:42:03 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:42:03 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:42:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:42:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:42:03 symfony [info] {sfWebDebugLogger} Configuration 10.47 ms (9)
+Oct 04 11:42:03 symfony [info] {sfWebDebugLogger} Action "post/index" 16.88 ms (1)
+Oct 04 11:42:03 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 14.84 ms (1)
+Oct 04 11:42:03 symfony [info] {sfWebResponse} Send content (27553 o)
+Oct 04 11:42:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:42:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:42:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:42:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 11:42:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:42:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:42:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:42:14 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 11:42:14 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:42:14 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 11:42:14 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 11:42:14 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:42:14 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:42:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:42:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:42:14 symfony [info] {sfWebDebugLogger} Configuration 6.90 ms (9)
+Oct 04 11:42:14 symfony [info] {sfWebDebugLogger} Action "post/index" 14.98 ms (1)
+Oct 04 11:42:14 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 107.29 ms (1)
+Oct 04 11:42:14 symfony [info] {sfWebResponse} Send content (27553 o)
+Oct 04 11:42:19 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:42:19 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:42:19 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:42:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 11:42:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:42:19 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:42:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:42:19 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 11:42:19 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:42:19 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 11:42:19 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 11:42:19 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:42:19 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:42:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:42:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:42:19 symfony [info] {sfWebDebugLogger} Configuration 8.25 ms (9)
+Oct 04 11:42:19 symfony [info] {sfWebDebugLogger} Action "post/index" 15.58 ms (1)
+Oct 04 11:42:19 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 13.91 ms (1)
+Oct 04 11:42:19 symfony [info] {sfWebResponse} Send content (27554 o)
+Oct 04 11:42:25 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:42:25 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:42:25 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:42:25 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 11:42:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:42:25 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:42:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:42:25 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 11:42:25 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:42:25 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 11:42:25 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 11:42:25 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:42:25 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:42:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:42:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:42:25 symfony [info] {sfWebDebugLogger} Configuration 7.49 ms (9)
+Oct 04 11:42:25 symfony [info] {sfWebDebugLogger} Action "post/index" 16.19 ms (1)
+Oct 04 11:42:25 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 14.68 ms (1)
+Oct 04 11:42:25 symfony [info] {sfWebResponse} Send content (27553 o)
+Oct 04 11:42:26 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 04 11:42:26 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 04 11:42:26 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 04 11:42:26 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /post with parameters array (  'module' => 'post',  'action' => 'index',)
+Oct 04 11:42:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 04 11:42:27 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Oct 04 11:42:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 04 11:42:27 symfony [info] {postActions} Call "postActions->executeIndex()"
+Oct 04 11:42:27 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Oct 04 11:42:27 symfony [debug] {sfPropelLogger} prepare: SELECT blog_post.ID, blog_post.NAME, blog_post.TITLE, blog_post.TEXT, blog_post.ACTIV, blog_post.CREATED_AT FROM `blog_post`
+Oct 04 11:42:27 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\modules/post/templates/indexSuccess.php"
+Oct 04 11:42:27 symfony [info] {sfPHPView} Decorate content with "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:42:27 symfony [info] {sfPHPView} Render "C:\OpenServer\domains\News\apps\frontend\templates/layout.php"
+Oct 04 11:42:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 04 11:42:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 04 11:42:27 symfony [info] {sfWebDebugLogger} Configuration 7.50 ms (9)
+Oct 04 11:42:27 symfony [info] {sfWebDebugLogger} Action "post/index" 15.52 ms (1)
+Oct 04 11:42:27 symfony [info] {sfWebDebugLogger} View "Success" for "post/index" 13.40 ms (1)
+Oct 04 11:42:27 symfony [info] {sfWebResponse} Send content (27525 o)
